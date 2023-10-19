@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,200;0,500;0,900;1,100;1,500;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Entrega Final - Levican</title>
+</head>
+
+<body>
+    <header>
+        <h1> ✼️ El Loto Indio ✼️</h1>
+        <h2>brindamos paz a mente, cuerpo y alma...</h2>
+    </header>
+    
+    <main>
+    
+        <div id="formularioPrimeraParte">
+        <h3>Completa nuestro formulario para anotarte a nuestras clases!</h3>
+        <div id="hora"> </div>
+        <div>
+        <label for="clase" class="preguntas" >Elige tu clase:</label>
+        <select id="clase" class="opciones">
+            <option value="hatha" >Hatha Yoga</option>
+            <option value="vinyasa" >Vinyasa Yoga</option>
+            <option value="ashtanga" >Ashtanga Yoga</option>
+        </select>
+        </div>
+
+        <div>
+        <label for="horario" class="preguntas">Cuando nos acompañas?</label>
+        <select id="horario" class="opciones">
+            <option value="mediodia" > Mediodia </option>
+            <option value="tarde" >Tarde</option>
+            <option value="noche" >Noche</option>
+        </select>
+        </div>
+        
+        <button id="botonDisponibilidad" >Revisa la disponibilidad!</button>
+        </div>
+
+        <div id="formularioSegundaParte">
+        <p id="resultado" class="preguntas"></p>
+
+        <div id="anotarse" style="display: none;">
+            <label for="nombreAlumno" class="preguntas">Escribe tu nombre para anotarte:</label>
+            <input type="text" id="nombreAlumno" placeholder="Nombre Apellido">
+            <br><br>
+            <button id="botonGuardarAlumno" class="botones">Anotarme en esta clase!</button>
+        </div>
+        </div>
+
+        <div id="listaFinal">
+        <h3>Lista de Alumnos registrados: </h3>
+        <ul id="listaRegistros"></ul>
+        </div>
+    </main>
+
+<script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Noto Serif', serif;
+    color: #D1CA98;
+}
+
+header{
+    background-color: #D1CA98;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+header h1{
+    color:#676F54;
+    font-size: 45px;
+    text-align: center;
+}
+header h2{
+    color: #676F54;
+    font-size: 30px;
+    text-align: center;
+}
+
+#formularioPrimeraParte{
+    background-color:#676F54 ;
+    display: block;
+    
+}
+
+#formularioPrimeraParte h3{
+    color: #D1CA98;
+    font-size: 25px;
+    padding: 12px;
+    
+}
+
+#formularioPrimeraParte #hora{
+    margin: 10px;
+}
+
+#formularioPrimeraParte .preguntas{
+    color: #D1CA98;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#formularioPrimeraParte #botonDisponibilidad{
+    background-color: #D1CA98 ;
+    color:#676F54;
+    font-family: 'Noto Serif', serif;
+    padding: 12px;
+    margin: 15px;
+}
+
+#formularioPrimeraParte .opciones{
+    color: #676F54;
+    background-color: #D1CA98;
+    padding: 3px;
+    font-family:'Noto Serif', serif ;
+}
+
+#formularioSegundaParte{
+    background-color:#676F54 ;
+    display: block;
+}
+
+#formularioSegundaParte .preguntas{
+    color: #D1CA98;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#formularioSegundaParte #nombreAlumno{
+    color: #676F54;
+    background-color: #D1CA98;
+    padding: 3px;
+    font-family:'Noto Serif', serif ;
+}
+
+#formularioSegundaParte #botonGuardarAlumno{
+    background-color: #D1CA98 ;
+    color:#676F54;
+    font-family: 'Noto Serif', serif;
+    padding: 12px;
+    margin: 15px;
+}
+
+#listaFinal{
+    background-color: #D1CA98;
+    color: #676F54;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#listaFinal h3{
+    font-size: 25px;
+}
+
+.botonBorrar{
+    background-color: #676F54;
+    color: #D1CA98;
+    font-family:'Noto Serif', serif ;
+    padding: 6px;
+    margin: 10px;
+}
